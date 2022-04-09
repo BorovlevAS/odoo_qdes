@@ -1,0 +1,10 @@
+<odoo>
+    <menuitem id="menu_biko_additional_info"
+        name="Additional Information"
+        sequence="99" parent="contacts.res_partner_menu_config"/>
+
+    <menuitem id="menu_biko_software"
+        name="Software"
+        action="biko_software_action_tree"
+        sequence="1" parent="menu_biko_additional_info"/>
+</odoo>

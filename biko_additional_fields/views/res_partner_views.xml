@@ -1,0 +1,48 @@
+<odoo>
+
+    <record id="qdes_res_partner_view_form1" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit.qdes</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//*/h1[1]" position="after">
+                <field name = "inner_name" attrs="{'invisible': [('is_company', '=', False)], 'required' : [('is_company', '=', True)]}"
+                       placeholder="Inner name"/>
+            </xpath>
+            <xpath expr="//*/field[@name='active_lang_count']" position="before">
+                <field name="industry_id" attrs="{'invisible': [('is_company', '=', False)], 'required' : [('is_company', '=', True)]}"
+                       options="{'no_create': True}"/>
+            </xpath>
+            <xpath expr="//*/field[@name='category_id']" position="after">
+                <field name = "software_ids" attrs="{'invisible': [('is_company', '=', False)], 'required' : [('is_company', '=', True)]}"
+                       widget="many2many_tags" options="{'color_field': 'color', 'no_create_edit': True}"
+                       placeholder="Software"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="biko_res_partner_view_search" model="ir.ui.view">
+        <field name="name">biko.res.partner.view.search.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_res_partner_filter"/>
+        <field name="arch" type="xml">
+            <search>
+                <searchpanel>
+                    <field name="industry_id" string="Industry" enable_counters="1"/>
+                </searchpanel>
+            </search>
+        </field>
+    </record>
+
+    <record id="biko_res_partner_tree" model="ir.ui.view">
+        <field name="name">biko.res.partner.view.tree.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//*/field[@name='active']" position="after">
+                <field name="software_ids" string = "Software" optional="hide" widget="many2many_tags" options="{'color_field': 'color'}"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
