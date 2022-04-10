@@ -1,3 +1,5 @@
 "id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
 "access_biko_software_group_partner_manager","biko_software group_partner_manager","model_biko_software","base.group_partner_manager",1,1,1,1
 "access_biko_software_group_user","biko_software group_user","model_biko_software","base.group_user",1,0,0,0
+"access_biko_source_group_partner_manager","biko_source group_partner_manager","model_biko_source","base.group_partner_manager",1,1,1,1
+"access_biko_source_group_user","biko_source group_user","model_biko_source","base.group_user",1,0,0,0

@@ -18,6 +18,9 @@
                        widget="many2many_tags" options="{'color_field': 'color', 'no_create_edit': True}"
                        placeholder="Software"/>
             </xpath>
+            <xpath expr="//*/field[@name='vat']" position="after">
+                <field name = "source_id" attrs="{'invisible': [('is_company', '=', False)], 'required' : [('is_company', '=', True)]}"/>
+            </xpath>
         </field>
     </record>
 

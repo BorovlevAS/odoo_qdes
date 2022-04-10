@@ -8,6 +8,7 @@
     "depends": ['base', 'contacts'],
     "data": [
         'views/biko_software_views.xml',
+        'views/biko_source_views.xml',
         'views/res_partner_views.xml',
         'views/menu.xml',
         'security/ir.model.access.csv',

@@ -8,6 +8,11 @@
         action="biko_software_action_tree"
         sequence="1" parent="menu_biko_additional_info"/>
 
+    <menuitem id="menu_biko_source"
+        name="Sources"
+        action="biko_source_action_tree"
+        sequence="1" parent="menu_biko_additional_info"/>
+
     <menuitem id="biko_res_partner_menu_companies"
         name="Companies"
         action="biko_action_companies_list"

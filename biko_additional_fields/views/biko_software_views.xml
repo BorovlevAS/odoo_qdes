@@ -12,4 +12,15 @@
             </p>
         </field>
     </record>
+
+    <record id="biko_software_view_tree" model="ir.ui.view">
+        <field name="name">biko.software.view.tree</field>
+        <field name="model">biko.software</field>
+        <field name="arch" type="xml">
+            <tree string="Software" editable="bottom">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
 </odoo>
