@@ -7,4 +7,11 @@
         name="Software"
         action="biko_software_action_tree"
         sequence="1" parent="menu_biko_additional_info"/>
+
+    <menuitem id="biko_res_partner_menu_companies"
+        name="Companies"
+        action="biko_action_companies_list"
+        parent="contacts.menu_contacts"
+        sequence="1"/>
+
 </odoo>
