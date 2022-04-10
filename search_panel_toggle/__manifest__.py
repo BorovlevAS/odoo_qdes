@@ -60,7 +60,7 @@
 
 
     # any module necessary for this one to work correctly
-    'depends': ['web', 'product'],
+    'depends': ['web', 'product', 'muk_web_theme'],
 
     # always loaded
     'data': [

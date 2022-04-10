@@ -1,3 +1,6 @@
+$biko_gradient_start: lighten($o-brand-primary, 20%);
+$biko_gradient_end: lighten($o-brand-primary, 10%);
+
 .o_controller_with_searchpanel {
 	.btn-search-panel-toggle {
 		width: 10px;
@@ -8,30 +11,36 @@
 		z-index: 10;
 		outline: none;
 		margin-top: calc(20% - 60px);
-		color: #23d0b0;
+// 		color: #23d0b0;
+        color: $o-brand-odoo;
 	}
 	.hide-panel::before {
-		color: #23d0b0;
+// 		color: #23d0b0;
+        color: $o-brand-odoo;
 		margin-left: -10px;
 	}
 	.show-panel::before {
-		color: #23d0b0;
+// 		color: #23d0b0;
+        color: $o-brand-odoo;
 		margin-left: 2px;
 	}	
 	.hide-panel {
-		background: linear-gradient(to right, #4accba73, #4ff4cea1, #4accbacf);
+// 		background: linear-gradient(to right, #4accba73, #4ff4cea1, #4accbacf);
+        background: linear-gradient(to right, $biko_gradient_start, $biko_gradient_end);
 		margin-left: 8px;
 		border-top-left-radius:6px;
 		border-bottom-left-radius:6px;
 	}
 	.show-panel {
-		background: linear-gradient(to right, #4accbacf, #4ff4cea1, #4accba73);
+// 		background: linear-gradient(to right, #4accbacf, #4ff4cea1, #4accba73);
+        background: linear-gradient(to right, $biko_gradient_start, $biko_gradient_end);
 		margin-left: 0px;
 		border-top-right-radius:6px;
 		border-bottom-right-radius:6px;
 	}
 	.o_search_panel {
-		border: 1px solid #50a0f0;
+// 		border: 1px solid #50a0f0;
+        border: 1px solid $mk-brand-gradient-start;
 		border-radius: 6px;
 	}	
 	
