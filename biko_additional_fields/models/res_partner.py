@@ -9,3 +9,4 @@ class ResPartner(models.Model):
                                     string = 'Software')
 
     source_id = fields.Many2one(comodel_name = 'biko.source', string = 'Source')
+    recomendator_id = fields.Many2one(comodel_name = 'res.partner', string = 'Recommendator')

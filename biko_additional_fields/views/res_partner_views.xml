@@ -20,6 +20,7 @@
             </xpath>
             <xpath expr="//*/field[@name='vat']" position="after">
                 <field name = "source_id" attrs="{'invisible': [('is_company', '=', False)], 'required' : [('is_company', '=', True)]}"/>
+                <field name = "recomendator_id" attrs="{'invisible': [('is_company', '=', False)]}"/>
             </xpath>
         </field>
     </record>
