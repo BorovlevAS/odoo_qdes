@@ -9,6 +9,11 @@
                 <field name = "inner_name" attrs="{'invisible': [('is_company', '=', False)], 'required' : [('is_company', '=', True)]}"
                        placeholder="Inner name"/>
             </xpath>
+            <xpath expr="//*/field[@name='website']" position="before">
+                <field name="email2" string="Email (add.)" widget="email" context="{'gravatar_image': True}"/>
+                <field name="telegram"/>
+                <field name="skype"/>
+            </xpath>
             <xpath expr="//*/field[@name='active_lang_count']" position="before">
                 <field name="industry_id" attrs="{'invisible': [('is_company', '=', False)], 'required' : [('is_company', '=', True)]}"
                        options="{'no_create': True}"/>
