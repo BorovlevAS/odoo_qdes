@@ -1,0 +1,58 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* biko_apps_icons
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-11 18:59+0000\n"
+"PO-Revision-Date: 2022-04-11 22:15+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: biko_apps_icons
+#: model_terms:ir.ui.view,arch_db:biko_apps_icons.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Setup Icons</span>"
+msgstr "<span class=\"o_form_label\">Установить иконки</span>"
+
+#. module: biko_apps_icons
+#: model_terms:ir.ui.view,arch_db:biko_apps_icons.res_config_settings_view_form
+msgid "BIKO Icons"
+msgstr "BIKO Icons"
+
+#. module: biko_apps_icons
+#: model:ir.model,name:biko_apps_icons.model_res_config_settings
+msgid "Config Settings"
+msgstr "Конфигурационные настройки"
+
+#. module: biko_apps_icons
+#: model:ir.model.fields,field_description:biko_apps_icons.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#. module: biko_apps_icons
+#: model:ir.model.fields,field_description:biko_apps_icons.field_res_config_settings__id
+msgid "ID"
+msgstr "Идентификатор"
+
+#. module: biko_apps_icons
+#: model:ir.model.fields,field_description:biko_apps_icons.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Последнее изменение"
+
+#. module: biko_apps_icons
+#: model_terms:ir.ui.view,arch_db:biko_apps_icons.res_config_settings_view_form
+msgid "Set the icons for the apps"
+msgstr "Установить иконки для приложений"
+
+#. module: biko_apps_icons
+#: model_terms:ir.ui.view,arch_db:biko_apps_icons.res_config_settings_view_form
+msgid "Update Icons"
+msgstr "Обновить иконки"

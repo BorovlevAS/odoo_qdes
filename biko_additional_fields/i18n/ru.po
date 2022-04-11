@@ -1,0 +1,162 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* biko_additional_fields
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-11 18:56+0000\n"
+"PO-Revision-Date: 2022-04-11 22:14+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: biko_additional_fields
+#: model:ir.ui.menu,name:biko_additional_fields.menu_biko_additional_info
+msgid "Additional Information"
+msgstr "Дополнительная информация"
+
+#. module: biko_additional_fields
+#: model:ir.model,name:biko_additional_fields.model_biko_software
+msgid "BIKO: software"
+msgstr "BIKO: программное обуспечение"
+
+#. module: biko_additional_fields
+#: model:ir.model,name:biko_additional_fields.model_biko_source
+msgid "BIKO: sources"
+msgstr "BIKO: источники лидов, сделок, компаний"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_software__color
+msgid "Color Index"
+msgstr "Цвет"
+
+#. module: biko_additional_fields
+#: model:ir.actions.act_window,name:biko_additional_fields.biko_action_companies_list
+#: model:ir.ui.menu,name:biko_additional_fields.biko_res_partner_menu_companies
+msgid "Companies"
+msgstr "Компании"
+
+#. module: biko_additional_fields
+#: model:ir.model,name:biko_additional_fields.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: biko_additional_fields
+#: model_terms:ir.actions.act_window,help:biko_additional_fields.biko_software_action_tree
+msgid "Create a Software"
+msgstr "Добавьте название программы"
+
+#. module: biko_additional_fields
+#: model_terms:ir.actions.act_window,help:biko_additional_fields.biko_action_companies_list
+msgid "Create a contact in your address book"
+msgstr "Добавьте контакт в  вашем списке контактов"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_software__create_uid
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_source__create_uid
+msgid "Created by"
+msgstr "Создал"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_software__create_date
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_source__create_date
+msgid "Created on"
+msgstr "Создано"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_software__display_name
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_source__display_name
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_software__id
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_source__id
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_partner__id
+msgid "ID"
+msgstr "Идентификатор"
+
+#. module: biko_additional_fields
+#: model_terms:ir.ui.view,arch_db:biko_additional_fields.biko_res_partner_view_search
+msgid "Industry"
+msgstr "Отрасль"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_partner__inner_name
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_users__inner_name
+#: model_terms:ir.ui.view,arch_db:biko_additional_fields.qdes_res_partner_view_form1
+msgid "Inner name"
+msgstr "Внутреннее название"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_software____last_update
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_source____last_update
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Последнее изменение"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_software__write_uid
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_source__write_uid
+msgid "Last Updated by"
+msgstr "Обновил"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_software__write_date
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_source__write_date
+msgid "Last Updated on"
+msgstr "Дата последнего обновления"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_software__name
+#: model:ir.model.fields,field_description:biko_additional_fields.field_biko_source__name
+msgid "Name"
+msgstr "Название"
+
+#. module: biko_additional_fields
+#: model_terms:ir.actions.act_window,help:biko_additional_fields.biko_action_companies_list
+msgid "Odoo helps you to easily track all activities related to a customer."
+msgstr ""
+
+#. module: biko_additional_fields
+#: model_terms:ir.actions.act_window,help:biko_additional_fields.biko_software_action_tree
+msgid "Odoo helps you track all activities related to your Software."
+msgstr "Нужно заполнить список ПО, которое используют клиенты"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_partner__recomendator_id
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_users__recomendator_id
+msgid "Recommendator"
+msgstr "Кто порекомендовал"
+
+#. module: biko_additional_fields
+#: model:ir.actions.act_window,name:biko_additional_fields.biko_software_action_tree
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_partner__software_ids
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_users__software_ids
+#: model:ir.ui.menu,name:biko_additional_fields.menu_biko_software
+#: model_terms:ir.ui.view,arch_db:biko_additional_fields.biko_res_partner_tree
+#: model_terms:ir.ui.view,arch_db:biko_additional_fields.biko_software_view_tree
+#: model_terms:ir.ui.view,arch_db:biko_additional_fields.qdes_res_partner_view_form1
+msgid "Software"
+msgstr "Программное обеспечение"
+
+#. module: biko_additional_fields
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_partner__source_id
+#: model:ir.model.fields,field_description:biko_additional_fields.field_res_users__source_id
+msgid "Source"
+msgstr "Источник"
+
+#. module: biko_additional_fields
+#: model:ir.actions.act_window,name:biko_additional_fields.biko_source_action_tree
+#: model:ir.ui.menu,name:biko_additional_fields.menu_biko_source
+#: model_terms:ir.ui.view,arch_db:biko_additional_fields.biko_source_view_tree
+msgid "Sources"
+msgstr "Источники лидов, сделок, компаний"
